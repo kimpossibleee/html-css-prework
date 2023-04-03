@@ -20,6 +20,13 @@ h2 {
     padding-top: 0px;
 }
 
+h3 {
+    font-weight: lighter;
+    font-size: larger;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 h4 {
     font-weight: 100;
 }
@@ -38,18 +45,26 @@ h5 {
 
 img {
     border-radius: 50px;
-    width: 400px;
-    height: 500px;
+    width: 300px;
+    height: 400px;
     object-fit: cover;
     outline-style: solid;
     outline-color: gray;
     outline-width: 10px;
 }
 
+figure {
+    margin: 0px;
+
+}
+
 .mycats {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 1px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
 }
 
 figcaption {
@@ -85,19 +100,21 @@ select {
     min-height: 2em;
 }
 
-input, textarea {
+input {
     border: 1px solid rgb(118, 118, 118);
-    color: #ffffff;
-  }
+    color: grey;
+}
 
 #cat {
     color: grey;
 
-  }
+}
+
 input[type="file"] {
     padding: 1px 2px;
-  }
-button{
+}
+
+button {
     display: block;
     width: 10%;
     margin: 1em auto;
@@ -114,6 +131,7 @@ h6 {
     font-size: smaller;
 
 }
+
 ul {
     display: inline;
     list-style-type: none;
